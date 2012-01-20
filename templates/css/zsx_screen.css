@@ -1,0 +1,88 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; font-weight: normal; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+
+body { font-family: helvetica, arial, sans-serif; font-size: 61%; }
+
+.clear { height: 0; font-size: 0; visibility: hidden; clear: both; }
+.body_container { width: 960px; margin: 0 auto; }
+
+.header { background: #efefef; height: 100px; }
+.header .logo { float: left; font-size: 2.4em; }
+.header .search { float: right; }
+
+.nav { font-size: 1.2em; background: #eeeeee; margin-bottom: 1em; }
+.nav li { float: left; padding: 0.4em 8px; }
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 0.4em;
+}
+
+h2 {
+  font-size: 1.6em;
+  font-weight: bold;
+  border-bottom: 0.1em solid #888888;
+  margin-bottom: 1em;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.4em;
+}
+
+.forme strong { font-weight: bold; }
+.forme em { font-style: italic; }
+
+.image {
+  background-color: #eeeeee;
+}
+
+.main_content {
+  margin-bottom: 1em;
+}
+
+.footer {
+  background: #eeeeee;
+  padding: 8px;
+}
+
+.edito {
+  margin-bottom: 1em;
+}
+
+.promo {
+  margin-bottom: 2.5em;
+}
+
+.promo .projet {
+  width: 312px;
+  float: left;
+  padding-left: 12px;
+}
+
+.promo .projet:first-child {
+  padding-left: 0;
+}
+
+.bloc_gauche {
+  float: left;
+  width: 636px;
+}
+
+.bloc_droite {
+  float: left;
+  width: 312px;
+  padding-left: 12px;
+}
+
