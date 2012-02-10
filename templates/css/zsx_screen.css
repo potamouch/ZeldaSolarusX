@@ -13,15 +13,91 @@ table { border-collapse: collapse; border-spacing: 0; }
 .clear { height: 0; font-size: 0; visibility: hidden; clear: both; }
 
 /** **/
-body { font-family: Helvetica, Arial, sans-serif; font-size: 61%; }
-.body_container { width: 960px; margin: 0 auto; }
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 61%;
+  background-color: #eeeeee;
+  background-image: url(../images/main_back.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+}
 
-.header { background: #efefef; height: 100px; }
-.header .logo { float: left; font-size: 2.4em; }
-.header .search { float: right; }
+.body_container { width: 960px; margin: 0 auto; background-color: #ffffff; }
 
-.nav { font-size: 1.2em; background: #eeeeee; margin-bottom: 1em; }
-.nav li { float: left; padding: 0.4em 8px; }
+
+.header .top_bar {
+  height: 23px;
+  background-image: url(../images/header_top_bar.png);
+}
+
+.header .bottom_bar {
+  height: 39px;
+  background-image: url(../images/header_bottom_bar.png);
+}
+
+.header .logo {
+  width: 387px;
+  height: 156px;
+  float: left;
+  background-image: url(../images/header_logo.jpg);
+}
+
+.header .logo a {
+  width: 387px;
+  height: 156px;
+  display: block;
+}
+
+.header .logo span {
+  display: none;
+}
+
+.header .character {
+  width: 244px;
+  height: 156px;
+  float: left;
+  background-image: url(../images/header_character.jpg);
+}
+
+.header .search {
+  width: 329px;
+  height: 156px;
+  float: left;
+  background-image: url(../images/header_back.jpg);
+}
+
+.nav .left {
+  width: 208px;
+  height: 26px;
+  float: left;
+  background-image: url(../images/menu_left.jpg);
+}
+
+.nav ul {
+  width: 752px;
+  height: 26px;
+  float: left;
+  background-image: url(../images/menu_back.jpg);
+}
+
+.nav li {
+  float: left;
+  padding: 6px 12px 0 0;
+}
+
+.nav a {
+  color: #ffffff;
+  text-decoration: none;
+  text-shadow: 0 1px #000000;
+  font-family: Georgia, serif;
+  font-size: 1.3em;
+  font-weight: bold;
+  display: block;
+}
+
+.nav a:hover {
+  color: #ffcc00;
+}
 
 /** Mise en forme du thème **/
 
