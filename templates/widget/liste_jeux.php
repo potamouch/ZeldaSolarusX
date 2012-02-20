@@ -17,4 +17,5 @@
     <li><a href="">Spirit Tracks</a></li>
     <li><a href="">Skyward Sword</a></li>
   </ul>
+  <div class="plus"><a href="jeu_liste.php">Tous les jeux</a></div>
 </div>
