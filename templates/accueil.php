@@ -1,9 +1,6 @@
 <?php include('header.php'); ?>
 
-<div class="title_block">
-  <div class="title_minibox"></div>
-  <h1>Bienvenue sur Zelda Solarus</h1>
-</div>
+<h1>Bienvenue sur Zelda Solarus</h1>
 
 <div class="main_content">
 
@@ -20,10 +17,12 @@
 
       <!-- Element d'un projet -->
       <div class="projet">
-        <div class="image">
-          <img src="" alt="" width="" height="80" />
-        </div>
-        <h3><a href="#">The Legend of Zelda : Mystery of Solarus DX</a></h3>
+        <h3>
+          <a href="#">
+            <span class="image"><img src="www_images/projet_zsdx.jpg" alt="" width="304" height="120" /></span>
+            <span class="titre">Zelda : Mystery of Solarus DX</span>
+          </a>
+        </h3>
         <div class="description forme">
           <p>Description du projet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent consectetur lorem quis urna auctor id suscipit velit vulputate.</p>
         </div>
@@ -33,10 +32,12 @@
       </div>
 
       <div class="projet">
-        <div class="image">
-          <img src="" alt="" width="" height="80" />
-        </div>
-        <h3><a href="#">The Legend of Zelda : Mystery of Solarus XD</a></h3>
+        <h3>
+          <a href="#">
+            <span class="image"><img src="www_images/projet_zsxd.jpg" alt="" width="304" height="120" /></span>
+            <span class="titre">Zelda : Mystery of Solarus XD</span>
+          </a>
+        </h3>
         <div class="description forme">
           <p>Description du projet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent consectetur lorem quis urna auctor id suscipit velit vulputate.</p>
         </div>
@@ -46,10 +47,12 @@
       </div>
 
       <div class="projet">
-        <div class="image">
-          <img src="" alt="" width="" height="80" />
-        </div>
-        <h3><a href="#">The Legend of Zelda : Mercuris' Chest</a></h3>
+        <h3>
+          <a href="#">
+            <span class="image"><img src="www_images/projet_mercuris.jpg" alt="" width="304" height="120" /></span>
+            <span class="titre">Zelda : Mercuris' Chest</span>
+          </a>
+        </h3>
         <div class="description forme">
           <p>Description du projet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent consectetur lorem quis urna auctor id suscipit velit vulputate.</p>
         </div>
@@ -66,28 +69,37 @@
   <div class="bloc_gauche_2_3">
 
     <!-- Liste des actus sur la home -->
-    <div class="news">
+    <div class="news_liste">
 
       <h2>Actualité</h2>
 
       <article>
         <div class="actu">
-          <h3><a href="article_detail.php">Une news</a></h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut lacus a est pretium congue nec scelerisque turpis. Aenean ac enim vitae dolor sagittis facilisis et ac odio. Fusce quam dui, volutpat et vulputate ut, iaculis eu metus. Donec vitae nunc quis tortor convallis ultricies. Proin imperdiet mattis nisl, malesuada sagittis urna fringilla sed. Nunc rutrum condimentum nunc, ac porta est cursus ac. Nullam mi eros, porta quis tristique vel, imperdiet et turpis.</p>
+          <h3 class="forme"><a href="article_detail.php">Une news</a></h3>
+          <div class="forme">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut lacus a est pretium congue nec scelerisque turpis. Aenean ac enim vitae dolor sagittis facilisis et ac odio. Fusce quam dui, volutpat et vulputate ut, iaculis eu metus. Donec vitae nunc quis tortor convallis ultricies. Proin imperdiet mattis nisl, malesuada sagittis urna fringilla sed. Nunc rutrum condimentum nunc, ac porta est cursus ac. Nullam mi eros, porta quis tristique vel, imperdiet et turpis.</p>
+          </div>
+          <div class="comment"><a href="#">8 commentaires</a></div>
         </div>
       </article>
 
       <article>
         <div class="actu">
-          <h3><a href="article_detail.php">Une news</a></h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut lacus a est pretium congue nec scelerisque turpis. Aenean ac enim vitae dolor sagittis facilisis et ac odio. Fusce quam dui, volutpat et vulputate ut, iaculis eu metus. Donec vitae nunc quis tortor convallis ultricies. Proin imperdiet mattis nisl, malesuada sagittis urna fringilla sed. Nunc rutrum condimentum nunc, ac porta est cursus ac. Nullam mi eros, porta quis tristique vel, imperdiet et turpis.</p>
+          <h3 class="forme"><a href="article_detail.php">Une news</a></h3>
+          <div class="forme">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut lacus a est pretium congue nec scelerisque turpis. Aenean ac enim vitae dolor sagittis facilisis et ac odio. Fusce quam dui, volutpat et vulputate ut, iaculis eu metus. Donec vitae nunc quis tortor convallis ultricies. Proin imperdiet mattis nisl, malesuada sagittis urna fringilla sed. Nunc rutrum condimentum nunc, ac porta est cursus ac. Nullam mi eros, porta quis tristique vel, imperdiet et turpis.</p>
+          </div>
+          <div class="comment"><a href="#">Poster un commentaire</a></div>
         </div>
       </article>
 
       <article>
         <div class="actu">
-          <h3><a href="article_detail.php">Une news</a></h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut lacus a est pretium congue nec scelerisque turpis. Aenean ac enim vitae dolor sagittis facilisis et ac odio. Fusce quam dui, volutpat et vulputate ut, iaculis eu metus. Donec vitae nunc quis tortor convallis ultricies. Proin imperdiet mattis nisl, malesuada sagittis urna fringilla sed. Nunc rutrum condimentum nunc, ac porta est cursus ac. Nullam mi eros, porta quis tristique vel, imperdiet et turpis.</p>
+          <h3 class="forme"><a href="article_detail.php">Une news</a></h3>
+          <div class="forme">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut lacus a est pretium congue nec scelerisque turpis. Aenean ac enim vitae dolor sagittis facilisis et ac odio. Fusce quam dui, volutpat et vulputate ut, iaculis eu metus. Donec vitae nunc quis tortor convallis ultricies. Proin imperdiet mattis nisl, malesuada sagittis urna fringilla sed. Nunc rutrum condimentum nunc, ac porta est cursus ac. Nullam mi eros, porta quis tristique vel, imperdiet et turpis.</p>
+          </div>
+          <div class="comment"><a href="#">1 commentaire</a></div>
         </div>
       </article>
 
@@ -101,7 +113,6 @@
     <!-- Side bar -->
     <aside>
       <div class="sidebar">
-        <?php include('widget/une.php'); ?>
         <?php include('widget/archives.php'); ?>
         <?php include('widget/liste_jeux.php'); ?>
       </div>

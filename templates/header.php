@@ -17,8 +17,8 @@
             <div class="character"></div>
             <div class="search">
               <form method="post" action="recherche_resultats.php">
-                <input type="text" value="Rechercher" />
-                <input type="submit" value="OK" />
+                <input class="texte" type="text" value="Rechercher" />
+                <input class="bouton" type="submit" value="OK" />
               </form>
             </div>
             <div class="clear"></div>
