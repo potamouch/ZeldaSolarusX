@@ -1,3 +1,8 @@
+
+      <div class="adv">
+        <!-- Espace publicitaire -->
+        <a href="#"><img src="www_images/hyrule-quest_468_60.gif" alt="Hyrule Quest" width="468" height="60" /></a>
+      </div>
       <div class="footer"><div class="ifooter">
         <footer>
           <p>&copy; 2001 - 2012, Zelda Solarus</p>

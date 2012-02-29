@@ -71,39 +71,58 @@
     <!-- Liste des actus sur la home -->
     <div class="news_liste">
 
-      <h2>Actualité</h2>
+      <h2 class="no-margin">Actualité</h2>
 
       <article>
         <div class="actu">
-          <h3 class="forme"><a href="article_detail.php">Une news</a></h3>
-          <div class="forme">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut lacus a est pretium congue nec scelerisque turpis. Aenean ac enim vitae dolor sagittis facilisis et ac odio. Fusce quam dui, volutpat et vulputate ut, iaculis eu metus. Donec vitae nunc quis tortor convallis ultricies. Proin imperdiet mattis nisl, malesuada sagittis urna fringilla sed. Nunc rutrum condimentum nunc, ac porta est cursus ac. Nullam mi eros, porta quis tristique vel, imperdiet et turpis.</p>
+          <div class="image">
+            <img src="www_images/news_image.jpg" alt="Illustration de Une News" width="160" heigt="120" />
           </div>
+          <h3 class="forme"><a href="article_detail.php">Une news</a></h3>
+          <p class="infos">Le Mercredi 29 Février 2012 à 21:07 par Christopho</p>
+          <div class="forme">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+          <div class="clear"></div>
           <div class="comment"><a href="#">8 commentaires</a></div>
         </div>
       </article>
 
       <article>
         <div class="actu">
+          <div class="image">
+            <img src="www_images/news_image.jpg" alt="Illustration de Une News" width="160" heigt="120" />
+          </div>
           <h3 class="forme"><a href="article_detail.php">Une news</a></h3>
+          <p class="infos">Le Mercredi 29 Février 2012 à 21:07 par Jean-Pierre Brard</p>
           <div class="forme">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut lacus a est pretium congue nec scelerisque turpis. Aenean ac enim vitae dolor sagittis facilisis et ac odio. Fusce quam dui, volutpat et vulputate ut, iaculis eu metus. Donec vitae nunc quis tortor convallis ultricies. Proin imperdiet mattis nisl, malesuada sagittis urna fringilla sed. Nunc rutrum condimentum nunc, ac porta est cursus ac. Nullam mi eros, porta quis tristique vel, imperdiet et turpis.</p>
           </div>
+          <div class="clear"></div>
           <div class="comment"><a href="#">Poster un commentaire</a></div>
         </div>
       </article>
 
       <article>
         <div class="actu">
+          <div class="image">
+            <img src="www_images/news_image.jpg" alt="Illustration de Une News" width="160" heigt="120" />
+          </div>
           <h3 class="forme"><a href="article_detail.php">Une news</a></h3>
+          <p class="infos">Le Mercredi 29 Février 2012 à 21:07 par Binbin</p>
           <div class="forme">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut lacus a est pretium congue nec scelerisque turpis. Aenean ac enim vitae dolor sagittis facilisis et ac odio. Fusce quam dui, volutpat et vulputate ut, iaculis eu metus. Donec vitae nunc quis tortor convallis ultricies. Proin imperdiet mattis nisl, malesuada sagittis urna fringilla sed. Nunc rutrum condimentum nunc, ac porta est cursus ac. Nullam mi eros, porta quis tristique vel, imperdiet et turpis.</p>
           </div>
+          <div class="clear"></div>
           <div class="comment"><a href="#">1 commentaire</a></div>
         </div>
       </article>
 
+      <div class="plus"><a href="">Voir toutes les news</a></div>
+      
     </div>
+    
+    
 
   </div>
 
