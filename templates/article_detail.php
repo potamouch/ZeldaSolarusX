@@ -20,8 +20,10 @@
           </ul>
         </li>
       </ul>
+      <div class="clear"></div>
     </div>
   </div>
+  <div class="clear"></div>
 </div>
 
 <div class="main_content">
@@ -30,7 +32,11 @@
 
     <!-- La classe "forme" permet de mettre en forme n'importe quel texte du site : les liens, le texte en gras etc... -->
     <div class="article_contenu forme">
-      <p>Paragraphe d'un article avec <a href="">un lien</a>, tu texte <strong>important</strong> et du texte <em>légèrement moins important</em>.</p>
+      <h2>Texte</h2>
+
+      <p>Paragraphe d'un article avec <a href="">un lien</a>, du texte <strong>important</strong> et du texte <em>légèrement moins important</em>.</p>
+
+      <p>Praesent iaculis ullamcorper lorem eget porttitor. Quisque hendrerit metus a urna faucibus in hendrerit felis feugiat. Duis quam eros, cursus non rutrum eu, tristique eget risus. Morbi lectus turpis, lobortis id volutpat sed, commodo id nibh. Donec in libero nulla. Maecenas egestas neque metus, ut vulputate purus. Quisque imperdiet enim et orci luctus dapibus. Fusce quis augue mi, ut scelerisque ante. Mauris cursus ultricies tortor, in rhoncus lorem tempor ac. Curabitur id erat lacus, vitae fermentum ante. Nullam eu turpis lacus.</p>
 
       <h2>Listes</h2>
 
@@ -140,9 +146,12 @@
         <li><a href="">dx</a></li>
         <li><a href="">binbin</a></li>
       </ul>
+      <div class="clear"></div>
     </div>
 
     <div class="article_commentaires">
+      <h2>Commentaires</h2>
+
       <ol>
         <li>
           <div class="commentaire_info">
@@ -172,11 +181,12 @@
     </div>
 
     <div class="article_poster_commentaire">
+      <h2>Poster un commentaire</h2>
       <form method="post" action="">
         <fieldset>
           <legend class="hide">Laisser un commentaire</legend>
           <!-- On place toujours cette mention en début de formulaire, c'est plus facile pour les personnes handicapées -->
-          <p>Les champs marqués d'un astérisque (<strong>*</strong>) sont obligatoires</p>
+          <p class="mandatory">Les champs marqués d'un astérisque (<strong>*</strong>) sont obligatoires</p>
 
           <div class="field_block">
             <label for="comment_form_nickname">Pseudonyme <strong>*</strong></label>
