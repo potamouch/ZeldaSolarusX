@@ -45,7 +45,7 @@
     <!-- Bloc fiche d'identité - début -->
     <h2>Fiche d'identité (si besoin)</h2>
 
-    <div class="jeu_identite">
+    <div class="jeu_identite forme">
       <table cellpadding="0" cellspacing="0">
         <caption class="hide">Fiche d'identité de Zelda : Mystery of Solarus DX</caption>
         <tbody>
