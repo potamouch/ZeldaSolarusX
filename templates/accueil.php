@@ -18,7 +18,7 @@
       <!-- Element d'un projet -->
       <div class="projet">
         <h3>
-          <a href="#">
+          <a href="jeu_presentation.php">
             <span class="image"><img src="www_images/projet_zsdx.jpg" alt="" width="304" height="120" /></span>
             <span class="titre">Zelda : Mystery of Solarus DX</span>
           </a>
@@ -27,13 +27,13 @@
           <p>Description du projet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent consectetur lorem quis urna auctor id suscipit velit vulputate.</p>
         </div>
         <div class="plus">
-          <a href="#">En savoir plus</a>
+          <a href="jeu_presentation.php">En savoir plus</a>
         </div>
       </div>
 
       <div class="projet">
         <h3>
-          <a href="#">
+          <a href="jeu_presentation.php">
             <span class="image"><img src="www_images/projet_zsxd.jpg" alt="" width="304" height="120" /></span>
             <span class="titre">Zelda : Mystery of Solarus XD</span>
           </a>
@@ -42,13 +42,13 @@
           <p>Description du projet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent consectetur lorem quis urna auctor id suscipit velit vulputate.</p>
         </div>
         <div class="plus">
-          <a href="#">En savoir plus</a>
+          <a href="jeu_presentation.php">En savoir plus</a>
         </div>
       </div>
 
       <div class="projet">
         <h3>
-          <a href="#">
+          <a href="jeu_presentation.php">
             <span class="image"><img src="www_images/projet_mercuris.jpg" alt="" width="304" height="120" /></span>
             <span class="titre">Zelda : Mercuris' Chest</span>
           </a>
@@ -57,7 +57,7 @@
           <p>Description du projet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent consectetur lorem quis urna auctor id suscipit velit vulputate.</p>
         </div>
         <div class="plus">
-          <a href="#">En savoir plus</a>
+          <a href="jeu_presentation.php">En savoir plus</a>
         </div>
       </div>
 
@@ -118,11 +118,11 @@
         </div>
       </article>
 
-      <div class="plus"><a href="">Voir toutes les news</a></div>
-      
+      <div class="plus"><a href="news_liste.php">Voir toutes les news</a></div>
+
     </div>
-    
-    
+
+
 
   </div>
 
