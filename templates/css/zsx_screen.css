@@ -15,6 +15,8 @@ Bleu : #1A67AB
 /** Outils **/
 
 .clear { height: 0; font-size: 0; visibility: hidden; clear: both; }
+.hide { display: none; }
+.invisible { text-indent: -5000px; position: absolute; font-size: 0; }
 
 /** Page, bandeau, footer **/
 body { font-family: Helvetica, Arial, sans-serif; font-size: 61%; background-color: #eeeeee; background-image: url(../images/main_back.png); background-position: top center; background-repeat: no-repeat; }
@@ -110,6 +112,15 @@ h1 { font-size: 2.6em; font-weight: normal; color: #567CA0; padding: 4px 12px 0 
 
 .sb_content { font-size: 1.2em; line-height: 1.4em; padding: 0 12px 12px 12px; }
 
+.sb_style_image .sb_content { padding-right: 0; }
+.sb_style_image .sb_content .plus { padding-right: 12px; }
+
+.sb_content .current { color: #2e4356; }
+.sb_content .current a { font-weight: bold; color: #2e4356; }
+.sb_content .images { list-style-type: none; padding: 0 !important; }
+.sb_content .images li { float: left; padding-right: 10px; }
+.sb_content .images a { border: 0 !important; height: 100px; display: block; padding-bottom: 10px; }
+
 .projet .plus { font-size: 1.2em; }
 
 .plus { text-align: right; font-weight: bold; }
@@ -134,7 +145,7 @@ h1 { font-size: 2.6em; font-weight: normal; color: #567CA0; padding: 4px 12px 0 
 
 }
 .forme p {
-  margin-bottom: 1.5em;
+  padding-bottom: 1.5em;
   line-height: 1.6em;
 }
 .forme ul {
@@ -235,4 +246,88 @@ h1 { font-size: 2.6em; font-weight: normal; color: #567CA0; padding: 4px 12px 0 
   color: #888888;
   font-size: 1.1em;
   margin-bottom: 0;
+}
+
+/** Jeu : présentation **/
+
+.jeu_presentation {
+  background-color: #ECCC9A;
+  padding: 12px 12px 0px 12px;
+  border-radius: 12px;
+  margin-bottom: 1.75em;
+}
+
+.jeu_presentation .jaquette {
+  padding: 0 12px 0 0;
+  float: left;
+
+}
+
+.jeu_presentation .synopsis {
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-size: 1.2em;
+}
+
+.jeu_presentation a {
+  color: #9d5f1a;
+  border-bottom-color: #CA7B20;
+}
+
+.jeu_maj {
+  font-size: 1.2em;
+  border-top: 1px solid #dddddd;
+  padding-bottom: 2em;
+}
+
+.jeu_maj li {
+  padding: 0.2em 0;
+  line-height: 1.6em;
+  border-bottom: 1px solid #dddddd;
+}
+
+.jeu_maj li:hover {
+  background-color: #f0f0f0;
+}
+
+.jeu_maj li .date {
+  font-weight: bold;
+  color: #344b61;
+  padding-right: 10px;
+}
+
+.jeu_maj li a {
+  border: 0 !important;
+}
+
+.jeu_texte {
+  padding-bottom: 1em;
+}
+
+.jeu_identite {
+  padding-bottom: 2em;
+}
+
+.jeu_identite table {
+  width: 100%;
+  border-top: 1px solid #9f7e55;
+  border-left: 1px solid #9f7e55;
+}
+
+.jeu_identite th, .jeu_identite td {
+  border-right: 1px solid #9f7e55;
+  border-bottom: 1px solid #9f7e55;
+  padding: 0.5em;
+  font-size: 1.2em;
+}
+
+.jeu_identite th {
+  text-align: left;
+  background-color: #ECCC9A;
+  color: #5f4b32;
+  font-weight: bold;
+}
+
+.jeu_identite td {
+  color: #444444;
 }
