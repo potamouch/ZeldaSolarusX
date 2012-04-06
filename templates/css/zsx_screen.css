@@ -184,11 +184,11 @@ h1 { font-size: 2.6em; font-weight: normal; color: #567CA0; padding: 4px 12px 0 
 .forme a { color: #CA7B20; text-decoration: none; border-bottom: 1px solid #CCCCCC; }
 .forme a:hover { color: #333333; border-bottom-color: #666666; }
 .forme a:active { color: #666666; border-bottom-color: #999999; }
-.forme caption { padding-bottom: 0.5em; font-weight: bold; font-size: 1.1em; color: #666666; }
-.forme table { width: 100%; border-top: 1px solid #9f7e55; border-left: 1px solid #9f7e55; margin-bottom: 1.5em }
-.forme th, .forme td { border-right: 1px solid #9f7e55; border-bottom: 1px solid #9f7e55; padding: 0.5em; }
-.forme th { text-align: left; background-color: #ECCC9A; color: #5f4b32; font-weight: bold; }
-.forme td { color: #444444; }
+.forme .style_orange caption { padding-bottom: 0.5em; font-weight: bold; font-size: 1.1em; color: #666666; }
+.forme table.style_orange { width: 100%; border-top: 1px solid #9f7e55; border-left: 1px solid #9f7e55; margin-bottom: 1.5em }
+.forme .style_orange th, .forme .style_orange td { border-right: 1px solid #9f7e55; border-bottom: 1px solid #9f7e55; padding: 0.5em; }
+.forme .style_orange th { text-align: left; background-color: #ECCC9A; color: #5f4b32; font-weight: bold; }
+.forme .style_orange td { color: #444444; }
 .forme p { padding-bottom: 1.5em; line-height: 1.6em; }
 .forme ul { margin-bottom: 1.5em; list-style-type: square; padding-left: 2em; }
 .forme ul ul { margin-bottom: 0; }

@@ -5,7 +5,7 @@
   </head>
   <body>
     <h1>Templates ZeldaSolarusX</h1>
-    
+
     <ul>
       <li><a href="accueil.php">Accueil</a></li>
       <li><a href="news_liste.php">Liste des news (ou archives)</a></li>
@@ -13,6 +13,7 @@
       <li><a href="article_detail.php">Détail article</a></li>
       <li><a href="jeu_liste.php">Liste des jeux</a></li>
       <li><a href="jeu_presentation.php">Présentation d'un jeu</a></li>
+      <li><a href="jeu_article.php">Article d'un jeu</a></li>
       <li><a href="jeu_telechargement.php">Téléchargements d'un jeu</a></li>
       <li><a href="image_liste.php">Galerie d'images d'un jeu</a></li>
       <li><a href="solution_liste.php">Liste des solutions</a></li>
