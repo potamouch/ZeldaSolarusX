@@ -15,7 +15,7 @@
       <li><a href="jeu_presentation.php">Présentation d'un jeu</a></li>
       <li><a href="jeu_article.php">Article d'un jeu</a></li>
       <li><a href="jeu_telechargement.php">Téléchargements d'un jeu</a></li>
-      <li><a href="image_liste.php">Galerie d'images d'un jeu</a></li>
+      <li><a href="jeu_images.php">Galerie d'images d'un jeu</a></li>
       <li><a href="solution_liste.php">Liste des solutions</a></li>
       <li><a href="solution_sommaire.php">Sommaire de solution</a></li>
       <li><a href="solution_detail.php">Page de solution</a></li>

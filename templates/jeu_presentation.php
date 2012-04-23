@@ -8,7 +8,7 @@
     <div class="jaquette">
       <a href="#" title="Voir la jaquette de Zelda : Mystery of Solarus DX en grand">
         <!-- L'image peut être de n'importe quelle dimension ou ratio -->
-        <img src="www_images/jaquette_xd.jpg" alt="Jaquette de Zelda : Mystery of Solarus DX" width="260" height="174" />
+        <img src="www_images/jaquette_xd.jpg" alt="Jaquette de Zelda : Mystery of Solarus DX" width="130" height="87" />
       </a>
     </div>
     <div class="synopsis forme">
@@ -46,7 +46,7 @@
     <h2>Fiche d'identité (si besoin)</h2>
 
     <div class="jeu_identite forme">
-      <table cellpadding="0" cellspacing="0">
+      <table cellpadding="0" cellspacing="0" class="style_orange">
         <caption class="hide">Fiche d'identité de Zelda : Mystery of Solarus DX</caption>
         <tbody>
           <tr>
