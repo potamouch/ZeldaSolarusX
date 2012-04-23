@@ -271,6 +271,49 @@ h1 { font-size: 2.6em; font-weight: normal; color: #567CA0; padding: 4px 12px 0 
 .download_total { padding: 12px; background-color: #ECCC9A; border-radius: 8px; font-size: 1.2em; font-weight: bold; }
 .download_total strong { font-weight: bold; }
 
+/** Solutions du site **/
+
+.solution_liste li {
+  padding-bottom: 3em;
+}
+
+.sol_image {
+  float: left;
+  width: 134px;
+  height: 100px;
+  padding: 0 10px 10px 0;
+}
+
+.sol_contenu {
+  float: left;
+  width: 792px;
+}
+
+.sol_contenu p {
+  margin-bottom: 1em;
+}
+
+.sol_contenu .info {
+  font-size: 1.1em;
+  color: #888888;
+  margin-bottom: 1em;
+}
+
+.sol_contenu .info strong {
+  font-weight: bold;
+  color: #444444;
+}
+
+.solution_liste h2 a{
+  text-decoration: none;
+  color: #567CA0;
+}
+
+.solution_liste .plus {
+  font-size: 1.2em;
+  text-align: left;
+}
+
 /** Jeu : présentation **/
 
 .jeu_presentation { background-color: #ECCC9A; padding: 12px 12px 0px 12px; border-radius: 12px; margin-bottom: 1.75em; }
