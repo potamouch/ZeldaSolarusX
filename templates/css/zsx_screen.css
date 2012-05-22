@@ -121,53 +121,11 @@ h1 { font-size: 2.6em; font-weight: normal; color: #567CA0; padding: 4px 12px 0 
 .bouton a:hover { background: linear-gradient(top, #f8ead6, #d6b794); background: -webkit-linear-gradient(top, #f8ead6, #d6b794); background: -webkit-gradient(linear, 0% 0%, 0% 100%n, from(#f8ead6), to(#d6b794)); background: -moz-linear-gradient(top, #f8ead6, #d6b794); background: -ms-linear-gradient(top, #f8ead6, #d6b794); background: -o-linear-gradient(top, #f8ead6, #d6b794); }
 .bouton a:active { margin-top: 1px; margin-bottom: 0px; }
 
-.onglets {
-  border-bottom: 1px solid #888888;
-  margin-bottom: 1.5em;
-}
-
-.onglets li {
-  float: left;
-  font-size: 1.2em;
-}
-
-.onglets li a {
-  text-decoration: none;
-  color: #444444;
-  padding: 0.5em;
-  background-color: #eeeeee;
-  display: block;
-  border-top: 1px solid #bbbbbb;
-  border-left: 1px solid #bbbbbb;
-  border-right: 1px solid #bbbbbb;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
-  background: linear-gradient(top, #d7d7d7, #ffffff);
-  background: -webkit-linear-gradient(top, #d7d7d7, #ffffff);
-  background: -webkit-gradient(linear, 0% 0%, 0% 100%n, from(#d7d7d7), to(#ffffff));
-  background: -moz-linear-gradient(top, #d7d7d7, #ffffff);
-  background: -ms-linear-gradient(top, #d7d7d7, #ffffff);
-  background: -o-linear-gradient(top, #d7d7d7, #ffffff);
-}
-
-.onglets li a:hover {
-  background: linear-gradient(top, #ffffff, #d7d7d7);
-  background: -webkit-linear-gradient(top, #ffffff, #d7d7d7);
-  background: -webkit-gradient(linear, 0% 0%, 0% 100%n, from(#ffffff), to(#d7d7d7));
-  background: -moz-linear-gradient(top, #ffffff, #d7d7d7);
-  background: -ms-linear-gradient(top, #ffffff, #d7d7d7);
-  background: -o-linear-gradient(top, #ffffff, #d7d7d7);
-}
-
-.onglets li.active a {
-  background: linear-gradient(top, #567CA0, #82C3C7);
-  background: -webkit-linear-gradient(top, #567CA0, #82C3C7);
-  background: -webkit-gradient(linear, 0% 0%, 0% 100%n, from(#567CA0), to(#82C3C7));
-  background: -moz-linear-gradient(top, #567CA0, #82C3C7);
-  background: -ms-linear-gradient(top, #567CA0, #82C3C7);
-  background: -o-linear-gradient(top, #567CA0, #82C3C7);
-  color: #ffffff;
-}
+.onglets { border-bottom: 1px solid #888888; margin-bottom: 1.5em; }
+.onglets li { float: left; font-size: 1.2em; }
+.onglets li a { text-decoration: none; color: #444444; padding: 0.5em; background-color: #eeeeee; display: block; border-top: 1px solid #bbbbbb; border-left: 1px solid #bbbbbb; border-right: 1px solid #bbbbbb; border-top-left-radius: 8px; border-top-right-radius: 8px; background: linear-gradient(top, #d7d7d7, #ffffff); background: -webkit-linear-gradient(top, #d7d7d7, #ffffff); background: -webkit-gradient(linear, 0% 0%, 0% 100%n, from(#d7d7d7), to(#ffffff)); background: -moz-linear-gradient(top, #d7d7d7, #ffffff); background: -ms-linear-gradient(top, #d7d7d7, #ffffff); background: -o-linear-gradient(top, #d7d7d7, #ffffff); }
+.onglets li a:hover { background: linear-gradient(top, #ffffff, #d7d7d7); background: -webkit-linear-gradient(top, #ffffff, #d7d7d7); background: -webkit-gradient(linear, 0% 0%, 0% 100%n, from(#ffffff), to(#d7d7d7)); background: -moz-linear-gradient(top, #ffffff, #d7d7d7); background: -ms-linear-gradient(top, #ffffff, #d7d7d7); background: -o-linear-gradient(top, #ffffff, #d7d7d7); }
+.onglets li.active a { background: linear-gradient(top, #567CA0, #82C3C7); background: -webkit-linear-gradient(top, #567CA0, #82C3C7); background: -webkit-gradient(linear, 0% 0%, 0% 100%n, from(#567CA0), to(#82C3C7)); background: -moz-linear-gradient(top, #567CA0, #82C3C7); background: -ms-linear-gradient(top, #567CA0, #82C3C7); background: -o-linear-gradient(top, #567CA0, #82C3C7); color: #ffffff; }
 
 .forme { font-size: 1.2em; }
 .forme h2 { font-size: 1.4em; border: 0; color: #506c76; font-weight: bold; margin-bottom: 0.5em; }
@@ -273,46 +231,14 @@ h1 { font-size: 2.6em; font-weight: normal; color: #567CA0; padding: 4px 12px 0 
 
 /** Solutions du site **/
 
-.solution_liste li {
-  padding-bottom: 3em;
-}
-
-.sol_image {
-  float: left;
-  width: 134px;
-  height: 100px;
-  padding: 0 10px 10px 0;
-}
-
-.sol_contenu {
-  float: left;
-  width: 792px;
-}
-
-.sol_contenu p {
-  margin-bottom: 1em;
-}
-
-.sol_contenu .info {
-  font-size: 1.1em;
-  color: #888888;
-  margin-bottom: 1em;
-}
-
-.sol_contenu .info strong {
-  font-weight: bold;
-  color: #444444;
-}
-
-.solution_liste h2 a{
-  text-decoration: none;
-  color: #567CA0;
-}
-
-.solution_liste .plus {
-  font-size: 1.2em;
-  text-align: left;
-}
+.solution_liste li { padding-bottom: 3em; }
+.sol_image { float: left; width: 134px; height: 100px; padding: 0 10px 10px 0; }
+.sol_contenu { float: left; width: 792px; }
+.sol_contenu p { margin-bottom: 1em; }
+.sol_contenu .info { font-size: 1.1em; color: #888888; margin-bottom: 1em; }
+.sol_contenu .info strong { font-weight: bold; color: #444444; }
+.solution_liste h2 a{ text-decoration: none; color: #567CA0; }
+.solution_liste .plus { font-size: 1.2em; text-align: left; }
 
 /** Jeu : présentation **/
 
