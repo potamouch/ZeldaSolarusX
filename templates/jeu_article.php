@@ -97,7 +97,7 @@
 
       <!-- Exemple de tableau croisé à deux dimensions, il est possible de faire des tableaux
         plus simples sans en-têtes -->
-      <table summary="Description du tableau">
+      <table class="style_orange" summary="Description du tableau">
         <caption>Légende du tableau</caption>
         <thead>
           <tr>
@@ -149,65 +149,6 @@
       <div class="clear"></div>
     </div>
 
-    <div class="article_commentaires">
-      <h2>Commentaires</h2>
-
-      <ol>
-        <li>
-          <div class="commentaire_info">
-            Posté par <span class="auteur">Auteur</span> le <span class="date">17/01/2012 à 18:15</span>
-          </div>
-          <div class="commentaire_contenu forme">
-            <p>Contenu du commentaire</p>
-          </div>
-        </li>
-        <li>
-          <div class="commentaire_info">
-            Posté par <span class="auteur">Auteur</span> le <span class="date">17/01/2012 à 18:15</span>
-          </div>
-          <div class="commentaire_contenu forme">
-            <p>Contenu du commentaire</p>
-          </div>
-        </li>
-        <li>
-          <div class="commentaire_info">
-            Posté par <span class="auteur">Auteur</span> le <span class="date">17/01/2012 à 18:15</span>
-          </div>
-          <div class="commentaire_contenu forme">
-            <p>Contenu du commentaire</p>
-          </div>
-        </li>
-      </ol>
-    </div>
-
-    <div class="article_poster_commentaire">
-      <h2>Poster un commentaire</h2>
-      <form method="post" action="">
-        <fieldset>
-          <legend class="hide">Laisser un commentaire</legend>
-          <!-- On place toujours cette mention en début de formulaire, c'est plus facile pour les personnes handicapées -->
-          <p class="mandatory">Les champs marqués d'un astérisque (<strong>*</strong>) sont obligatoires</p>
-
-          <div class="field_block">
-            <label for="comment_form_nickname">Pseudonyme <strong>*</strong></label>
-            <input type="text" id="comment_form_nickname" />
-          </div>
-
-          <div class="field_block">
-            <label for="comment_form_email">Adresse e-mail <strong>*</strong></label>
-            <input type="text" id="comment_form_email" />
-          </div>
-
-          <div class="field_block">
-            <label for="comment_form_message">Message <strong>*</strong></label>
-            <textarea id="comment_form_message"></textarea>
-          </div>
-
-          <input type="submit" value="Envoyer" />
-        </fieldset>
-      </form>
-    </div>
-
   </div>
 
   <!-- Sidebar -->
@@ -216,8 +157,7 @@
     <!-- Side bar -->
     <aside>
       <div class="sidebar">
-        <?php include('widget/une.php'); ?>
-        <?php include('widget/archives.php'); ?>
+        <?php include('widget/autres_articles.php'); ?>
       </div>
     </aside>
 
